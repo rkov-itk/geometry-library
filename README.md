@@ -90,6 +90,24 @@ public class App
 }
 ```
 
+Или если все стороны равны:
+
+```java
+import org.rkov.geometry.Triangle;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        var triangle = new Triangle(10);
+
+        var square = rectangle.getSquare();
+
+        var perimeter = rectangle.getPerimeter();
+    }
+}
+```
+
 ## Круг
 
 **Круг** - совокупность всех точек плоскости, расстояние от которых до заданной точки (центра) не превышает заданного неотрицательного числа (радиуса).

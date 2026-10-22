@@ -7,6 +7,10 @@ public final class Triangle implements AreaCalculator, PerimeterCalculator {
 
     private final double lengthA, lengthB, lengthC;
 
+    public Triangle(double lengthAll) {
+        this(lengthAll, lengthAll, lengthAll);
+    }
+
     public Triangle(double lengthA, double lengthB, double lengthC) {
         this.lengthA = lengthA;
         this.lengthB = lengthB;
@@ -16,7 +20,7 @@ public final class Triangle implements AreaCalculator, PerimeterCalculator {
     @Override
     public double getSquare() {
         double p = getPerimeter() / 2;
-        
+
         return Math.sqrt(p * (p - lengthA) * (p - lengthB) * (p - lengthC));
     }
 
@@ -24,5 +28,4 @@ public final class Triangle implements AreaCalculator, PerimeterCalculator {
     public double getPerimeter() {
         return lengthA + lengthB + lengthC;
     }
-
 }

@@ -42,4 +42,13 @@ public class TriangleTest extends TestCase {
         assertFalse(Math.abs(11.99 - triangle.getPerimeter()) < 0.0001);
     }
 
+    public void testByOneLenght() {
+        var triangle = new Triangle(10);
+
+        var result = Math.sqrt(3) * Math.pow(10, 2) / 4;
+
+        assertEquals(triangle.getSquare(), result, 0.0001);
+
+        assertEquals(30, triangle.getPerimeter(), 0.0001);
+    }
 }
