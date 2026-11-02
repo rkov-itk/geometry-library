@@ -4,7 +4,7 @@
     <groupId>org.rkov</groupId>
     <artifactId>geometry-library</artifactId>
     <packaging>pom</packaging>
-    <version>2.0.0</version>
+    <version>3.0.0</version>
     <name>geometry-library</name>
     <dependencies>
         <dependency>
@@ -30,6 +30,7 @@
     <modules>
         <module>geometry-core</module>
         <module>utils</module>
+        <module>threedimensional</module>
     </modules>
 
   <properties>
