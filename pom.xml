@@ -29,6 +29,7 @@
     </dependencyManagement>
     <modules>
         <module>geometry-library</module>
+        <module>geometry-utils</module>
     </modules>
 
   <properties>
