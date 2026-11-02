@@ -12,5 +12,5 @@
     <groupId>org.rkov.geometry</groupId>
     <artifactId>utils</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>geometry-utils</name>
+    <name>utils</name>
 </project>
