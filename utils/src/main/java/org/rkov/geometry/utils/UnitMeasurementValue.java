@@ -14,4 +14,7 @@ public final class UnitMeasurementValue {
         return value * multiply;
     }
 
+    public double update(int value) {
+        return update((double) value);
+    }
 }
